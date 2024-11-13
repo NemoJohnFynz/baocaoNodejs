@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
   res.send('Hello World');
 });
 
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 3001;
 
 app.listen(process.env.PORT, () => `Server running on port ${port} 🔥`);
 console.log(`Server running on port ${port} 🔥`);
