@@ -8,5 +8,4 @@ const pool = mysql.createPool({
 });
 
 const connection = pool.promise();
-
 export default connection;
